@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Mar 07 23:42:39 2018
+# Process ID: 15032
+# Current directory: C:/Users/Paula Hreniuc/test_env
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10544 C:\Users\Paula Hreniuc\test_env\test_env.xpr
+# Log file: C:/Users/Paula Hreniuc/test_env/vivado.log
+# Journal file: C:/Users/Paula Hreniuc/test_env\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Paula Hreniuc/test_env/test_env.xpr}
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1

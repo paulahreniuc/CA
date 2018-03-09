@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1520498485">
+  <File Type="PWROPT-DRC" Name="mpg2_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="mpg2_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="mpg2_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="mpg2_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="mpg2.tcl"/>
+  <File Type="OPT-HWDEF" Name="mpg2.hwdef"/>
+  <File Type="RDI-RDI" Name="mpg2.vdi"/>
+  <File Type="OPT-DCP" Name="mpg2_opt.dcp"/>
+  <File Type="OPT-DRC" Name="mpg2_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="mpg2_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="mpg2_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="mpg2_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="mpg2_placed.dcp"/>
+  <File Type="PLACE-IO" Name="mpg2_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="mpg2_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="mpg2_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="mpg2_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="mpg2_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="mpg2_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="mpg2_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="mpg2_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="mpg2_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="mpg2_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="mpg2_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="mpg2_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="mpg2_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="mpg2_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="mpg2_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="mpg2_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="mpg2_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="mpg2_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="mpg2.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="mpg2_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="mpg2.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="mpg2_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="mpg2.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="mpg2_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="mpg2.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="mpg2_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="mpg2_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="mpg2_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="mpg2_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="mpg2_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="mpg2_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="mpg2_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="mpg2_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="mpg2_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="mpg2_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="mpg2_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="mpg2_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="mpg2_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="mpg2_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="mpg2_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="mpg2.bit"/>
+  <File Type="BITSTR-RBT" Name="mpg2.rbt"/>
+  <File Type="BITSTR-NKY" Name="mpg2.nky"/>
+  <File Type="BITSTR-BMM" Name="mpg2_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="mpg2.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="mpg2.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/mpg2.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/test_new.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="mpg2"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
