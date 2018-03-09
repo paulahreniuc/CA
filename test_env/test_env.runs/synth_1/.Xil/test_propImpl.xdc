@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:D:/30424/h/test_env/test_env.srcs/constrs_1/new/constr.xdc rfile:../../../test_env.srcs/constrs_1/new/constr.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:F:/GitRepositories/CA_2018/test_env/test_env.srcs/constrs_1/new/constr.xdc rfile:../../../test_env.srcs/constrs_1/new/constr.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W5 [get_ports clk]
 set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]

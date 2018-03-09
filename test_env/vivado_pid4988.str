@@ -1,0 +1,863 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 4988
+
+Current time: 	3/9/18 9:09:40 PM EET
+Time zone: 	Eastern European Time (Europe/Athens)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.4/tps/win64/jre
+
+User name: 	Paula Hreniuc
+User home directory: C:/Users/Paula Hreniuc
+User working directory: F:/GitRepositories/CA_2018/test_env
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: C:/Xilinx/Vivado
+RDI data directory: C:/Xilinx/Vivado/2016.4/data
+RDI bin directory: C:/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/Paula Hreniuc/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/Paula Hreniuc/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	210 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 407 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bt:g (cd:JFrame):  Open Project : addNotify
+// Opening Vivado Project: F:\GitRepositories\CA_2018\test_env\test_env.xpr. Version: Vivado v2016.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project F:/GitRepositories/CA_2018/test_env/test_env.xpr 
+// [GUI Memory]: 32 MB (+30988kb) [00:00:05]
+// [Engine Memory]: 397 MB (+265087kb) [00:00:05]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project F:/GitRepositories/CA_2018/test_env/test_env.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/30424/h/test_env' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 409 MB. GUI used memory: 27 MB. Current time: 3/9/18 9:09:43 PM EET
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 47 MB (+14430kb) [00:00:15]
+// [Engine Memory]: 458 MB (+42416kb) [00:00:15]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 732.660 ; gain = 85.594 
+// Project name: test_env; location: F:/GitRepositories/CA_2018/test_env; part: xc7a35tcpg236-1
+// [Engine Memory]: 482 MB (+1967kb) [00:00:19]
+// [GUI Memory]: 51 MB (+1846kb) [00:00:19]
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// PAPropertyPanels.initPanels (test.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test - Behavioral (test.vhd)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test - Behavioral (test.vhd)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 501 MB. GUI used memory: 33 MB. Current time: 3/9/18 9:09:58 PM EET
+// [GUI Memory]: 55 MB (+785kb) [00:01:44]
+// [GUI Memory]: 58 MB (+26kb) [00:01:54]
+// [GUI Memory]: 61 MB (+522kb) [00:05:24]
+// Elapsed time: 322 seconds
+selectCodeEditor("test.vhd", 285, 240); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 71 seconds
+selectCodeEditor("test.vhd", 305, 112); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 67 MB (+3165kb) [00:07:04]
+// Elapsed time: 51 seconds
+selectCodeEditor("test.vhd", 29, 223); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 71 MB (+857kb) [00:09:51]
+// [GUI Memory]: 77 MB (+2620kb) [00:13:45]
+// [Engine Memory]: 509 MB (+2556kb) [00:14:00]
+// Elapsed time: 430 seconds
+selectCodeEditor("test.vhd", 62, 148); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 103, 300); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 51 seconds
+selectCodeEditor("test.vhd", 380, 233); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 46 seconds
+selectCodeEditor("test.vhd", 314, 144); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 356, 243); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 317, 144); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 491, 94); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 44, 110); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 98, 109); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 490, 113); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 96, 126); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 506, 136); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 496, 126); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 53, 227); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 82 MB (+1001kb) [00:17:52]
+// Elapsed time: 50 seconds
+selectCodeEditor("test.vhd", 96, 222); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 95, 213); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 17, 265); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor("test.vhd", 53, 265); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 49, 232); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 95 seconds
+selectCodeEditor("test.vhd", 79, 146); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 14, 257); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 14, 258, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("test.vhd", 8, 262); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 87 MB (+166kb) [00:20:52]
+// Elapsed time: 451 seconds
+selectCodeEditor("test.vhd", 104, 226); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 36 seconds
+selectCodeEditor("test.vhd", 114, 74); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 114, 74, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("test.vhd", 119, 95); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 98, 84); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 97, 84, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("test.vhd", 97, 83); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 209, 238); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 83 seconds
+selectCodeEditor("test.vhd", 237, 157); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 517 MB. GUI used memory: 37 MB. Current time: 3/9/18 9:39:58 PM EET
+// Elapsed time: 37 seconds
+selectCodeEditor("test.vhd", 119, 204); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 50 seconds
+selectCodeEditor("test.vhd", 72, 155); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 12, 145); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 529 MB. GUI used memory: 36 MB. Current time: 3/9/18 9:41:48 PM EET
+// Elapsed time: 51 seconds
+selectCodeEditor("test.vhd", 38, 207); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 168, 182); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 79, 197); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 151 seconds
+selectCodeEditor("test.vhd", 62, 199); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 62, 199); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("test.vhd", 87, 264); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("test.vhd", 357, 67); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("test.vhd", 95, 282); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 95, 282, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 53, 191); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 82 seconds
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor("test.vhd", 231, 222); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 159, 246); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 117, 245); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 50 seconds
+selectCodeEditor("test.vhd", 481, 160); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 326, 184); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 318, 180); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 320, 180); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 337, 201); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("test.vhd", 148, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("test.vhd", 121, 194); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 67 seconds
+selectCodeEditor("test.vhd", 242, 198); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 53 seconds
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 218, 249); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 95, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 95, 195, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// [GUI Memory]: 91 MB (+212kb) [00:41:53]
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 72, 249); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 72, 249, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("test.vhd", 68, 245); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 92 seconds
+selectCodeEditor("test.vhd", 397, 242); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("test.vhd", 442, 243); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 85 seconds
+selectCodeEditor("test.vhd", 139, 197); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("test.vhd", 236, 197); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 121 seconds
+selectCodeEditor("test.vhd", 125, 292); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 43 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LANGUAGE_TEMPLATES, "Language Templates"); // ab:JMenuItem (JPopupMenu:JComponent, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LANGUAGE_TEMPLATES
+// a:q (cd:JFrame): Language Templates: addNotify
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL]", 1); // i:JTree (JViewport:JComponent, a:q)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL]", 1); // i:JTree (JViewport:JComponent, a:q)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL]", 1); // i:JTree (JViewport:JComponent, a:q)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs]", 7); // i:JTree (JViewport:JComponent, a:q)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples]", 10); // i:JTree (JViewport:JComponent, a:q)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Multiplexers]", 23, true); // i:JTree (JViewport:JComponent, a:q) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Multiplexers]", 23, true, false, false, false, false, true); // i:JTree (JViewport:JComponent, a:q) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Multiplexers, 4-to-1 (process)]", 25, false); // i:JTree (JViewport:JComponent, a:q)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Multiplexers, 4-to-1 (process)]", 25, false, false, false, false, false, true); // i:JTree (JViewport:JComponent, a:q) - Double Click
+typeControlKey(null, null, 'c'); // c:bF (c:DefaultOverlayable, a:q)
+dismissDialog("Language Templates"); // a:q (cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 131, 128); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 160, 125); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 214, 126); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 271, 127); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("test.vhd", 206, 124); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 154, 126); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("test.vhd", 119, 91); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 118, 144); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 118, 144); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 109, 145); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 511, 145); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 507, 146); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 116, 159); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 491, 127); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 500, 125); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 102, 127); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 94, 146); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 110, 161); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 103, 211); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 22 seconds
+selectCodeEditor("test.vhd", 81, 60); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 81, 60, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 105, 281); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 91, 112); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 91, 112, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 161, 282); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 93, 140); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 93, 140, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("test.vhd", 115, 147); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 115, 147, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 216, 282); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 95, 196); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 95, 196, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 318, 284); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 318, 284, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("test.vhd", 348, 280); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 110, 108); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 110, 108, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("test.vhd", 127, 113); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("test.vhd", 317, 165); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 168 seconds
+selectCodeEditor("test.vhd", 507, 201); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 91 seconds
+selectCodeEditor("test.vhd", 132, 199); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 123, 209); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 190, 126); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 177, 127); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 187, 143); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 188, 161); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 188, 179); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 201, 196); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 257, 128); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 149, 79); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 149, 79, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 257, 128); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 201, 74); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 201, 74, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 256, 145); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 104, 75); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 166, 76); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 229, 81); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 315, 77); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 258, 65); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 269, 77); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 269, 77, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 258, 161); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 359, 69); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 359, 69, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 259, 179); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 488, 77); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 273, 197); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 104, 236); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 96 MB (+18kb) [00:59:44]
+// HMemoryUtils.trashcanNow. Engine heap size: 529 MB. GUI used memory: 43 MB. Current time: 3/9/18 10:11:48 PM EET
+// Elapsed time: 310 seconds
+selectCodeEditor("test.vhd", 105, 253); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 40 seconds
+selectCodeEditor("test.vhd", 738, 229); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 738, 229, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 54 seconds
+selectCodeEditor("test.vhd", 795, 70); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("test.vhd", 163, 127); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 163, 127, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 453, 173); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("test.vhd", 193, 330); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("test.vhd", 61, 326); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 204, 365); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 829, 333); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 148 seconds
+selectCodeEditor("test.vhd", 83, 246); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 54 seconds
+selectCodeEditor("test.vhd", 110, 285); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 74, 303); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 323 seconds
+selectCodeEditor("test.vhd", 325, 160); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("test.vhd", 75, 366); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 75, 366, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 131, 225); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("test.vhd", 90, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("test.vhd", 98, 226); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 139, 249); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 164, 215); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 167, 214); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 235, 252); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 271, 244); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 293, 249); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 32 seconds
+selectCodeEditor("test.vhd", 114, 285); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 140 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Run Synthesis: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // y:aO (cd:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Mar 09 22:28:29 2018] Launched synth_1... Run output will be captured here: F:/GitRepositories/CA_2018/test_env/test_env.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_FAILED
+// ah:y (cd:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 19 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah:y (cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'an': port width = 4, actual width = 7 [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:85]. ]", 1, false); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'an': port width = 4, actual width = 7 [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:85]. ]", 1, false, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'an': port width = 4, actual width = 7 [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:85]. ]", 1, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;F:\GitRepositories\CA_2018\test_env\test_env.srcs\sources_1\new\test.vhd;-;;-;16;-;line;-;85;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("test.vhd", 812, 176); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-690] width mismatch in assignment; target has 4 bits, source has 8 bits [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:123]. ]", 2, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;F:\GitRepositories\CA_2018\test_env\test_env.srcs\sources_1\new\test.vhd;-;;-;16;-;line;-;123;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("test.vhd", 251, 183); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("test.vhd", 343, 245); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: [Fri Mar 09 22:30:23 2018] Launched synth_1... Run output will be captured here: F:/GitRepositories/CA_2018/test_env/test_env.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 53 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ah:y)
+dismissDialog("Synthesis Completed"); // ah:y (cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-614] signal 'cont' is read in the process but is not in the sensitivity list [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:133]. ]", 1, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;F:\GitRepositories\CA_2018\test_env\test_env.srcs\sources_1\new\test.vhd;-;;-;16;-;line;-;133;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-614] signal 'cont' is read in the process but is not in the sensitivity list [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:133]. ]", 1, true, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click - Node
+selectCodeEditor("test.vhd", 217, 373); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 82, 276); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-614] signal 'cont' is read in the process but is not in the sensitivity list [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:133]. , [Synth 8-614] signal 'outzdet' is read in the process but is not in the sensitivity list [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:167]. ]", 2, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;F:\GitRepositories\CA_2018\test_env\test_env.srcs\sources_1\new\test.vhd;-;;-;16;-;line;-;167;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-614] signal 'cont' is read in the process but is not in the sensitivity list [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:133]. , [Synth 8-614] signal 'outzdet' is read in the process but is not in the sensitivity list [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:167]. ]", 2, false, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 25 seconds
+selectCodeEditor("test.vhd", 293, 310); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net cat_OBUF[6] with 1st driver pin 'u2/catout_reg[6]/Q' [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/display.vhd:94]. ]", 6, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;F:\GitRepositories\CA_2018\test_env\test_env.srcs\sources_1\new\display.vhd;-;;-;16;-;line;-;94;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net cat_OBUF[6] with 1st driver pin 'u2/catout_reg[6]/Q' [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/display.vhd:94]. , [Synth 8-3352] multi-driven net cat_OBUF[5] with 1st driver pin 'u2/catout_reg[5]/Q' [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/display.vhd:94]. ]", 8, false, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: [Fri Mar 09 22:32:37 2018] Launched synth_1... Run output will be captured here: F:/GitRepositories/CA_2018/test_env/test_env.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 36 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ah:y)
+dismissDialog("Synthesis Completed"); // ah:y (cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Fri Mar 09 22:33:22 2018] Launched impl_1... Run output will be captured here: F:/GitRepositories/CA_2018/test_env/test_env.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 21 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ah:y)
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// Elapsed time: 15 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.. ]", 8, false); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net an_OBUF[0] has multiple drivers: an_OBUF[0]_inst_i_1/O, an_OBUF[0]_inst_i_2/O.. ]", 7); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net an_OBUF[0] has multiple drivers: an_OBUF[0]_inst_i_1/O, an_OBUF[0]_inst_i_2/O.. ]", 7, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net an_OBUF[0] has multiple drivers: an_OBUF[0]_inst_i_1/O, an_OBUF[0]_inst_i_2/O.. ]", 7, true, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click - Node
+// Elapsed time: 220 seconds
+selectCodeEditor("test.vhd", 484, 249); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.. ]", 8, false); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net an_OBUF[0] has multiple drivers: an_OBUF[0]_inst_i_1/O, an_OBUF[0]_inst_i_2/O.. ]", 7, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 529 MB. GUI used memory: 43 MB. Current time: 3/9/18 10:41:49 PM EET
+// Elapsed time: 219 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.. ]", 8, false); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 33 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net an_OBUF[0] has multiple drivers: an_OBUF[0]_inst_i_1/O, an_OBUF[0]_inst_i_2/O.. ]", 7, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+// Elapsed time: 22 seconds
+selectCodeEditor("test.vhd", 402, 208); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 241 seconds
+selectCodeEditor("test.vhd", 237, 199); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 151, 144); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Fri Mar 09 22:47:10 2018] Launched synth_1... Run output will be captured here: F:/GitRepositories/CA_2018/test_env/test_env.runs/synth_1/runme.log [Fri Mar 09 22:47:10 2018] Launched impl_1... Run output will be captured here: F:/GitRepositories/CA_2018/test_env/test_env.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 54 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+selectCodeEditor("test.vhd", 155, 142); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Fri Mar 09 22:48:20 2018] Launched synth_1... Run output will be captured here: F:/GitRepositories/CA_2018/test_env/test_env.runs/synth_1/runme.log [Fri Mar 09 22:48:20 2018] Launched impl_1... Run output will be captured here: F:/GitRepositories/CA_2018/test_env/test_env.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// Elapsed time: 23 seconds
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 34 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 'resultSHFl_reg' [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:150]. ]", 2, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;F:\GitRepositories\CA_2018\test_env\test_env.srcs\sources_1\new\test.vhd;-;;-;16;-;line;-;150;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 'resultSHFl_reg' [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:150]. , [Synth 8-327] inferring latch for variable 'resultSHFr_reg' [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:147]. ]", 3, false, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 430 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 5, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 5, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 5, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constr.xdc]", 7, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constr.xdc]", 7, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 529 MB. GUI used memory: 41 MB. Current time: 3/9/18 11:11:49 PM EET
+// Elapsed time: 1551 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("test.vhd", 161, 178); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Mar 09 23:22:45 2018] Launched synth_1... Run output will be captured here: F:/GitRepositories/CA_2018/test_env/test_env.runs/synth_1/runme.log [Fri Mar 09 23:22:45 2018] Launched impl_1... Run output will be captured here: F:/GitRepositories/CA_2018/test_env/test_env.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 60 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("test.vhd", 103, 184); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Fri Mar 09 23:24:13 2018] Launched synth_1... Run output will be captured here: F:/GitRepositories/CA_2018/test_env/test_env.runs/synth_1/runme.log [Fri Mar 09 23:24:13 2018] Launched impl_1... Run output will be captured here: F:/GitRepositories/CA_2018/test_env/test_env.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 51 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ah:y)
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+// Elapsed time: 15 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net an_OBUF[0] has multiple drivers: an_OBUF[0]_inst_i_1/O, an_OBUF[0]_inst_i_2/O.. ]", 7, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net an_OBUF[0] has multiple drivers: an_OBUF[0]_inst_i_1/O, an_OBUF[0]_inst_i_2/O.. , [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net an_OBUF[2] has multiple drivers: an_OBUF[2]_inst_i_1/O, an_OBUF[2]_inst_i_2/O.. ]", 9, false, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("test.vhd", 379, 267); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 2, 145); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 356, 239); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, f:q)
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectCodeEditor("test.vhd", 2, 226); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Mar 09 23:26:24 2018] Launched synth_1... Run output will be captured here: F:/GitRepositories/CA_2018/test_env/test_env.runs/synth_1/runme.log [Fri Mar 09 23:26:24 2018] Launched impl_1... Run output will be captured here: F:/GitRepositories/CA_2018/test_env/test_env.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Implementation Completed: addNotify
+// Elapsed time: 116 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ah:y)
+dismissDialog("Implementation Completed"); // ah:y (cd:JFrame)
+selectCodeEditor("test.vhd", 100, 215); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 169, 232); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("test.vhd", 816, 331); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("test.vhd", 514, 276); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 65 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// Elapsed time: 64 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design test has unconnected port led[14]. ]", 1, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design test has unconnected port led[14]. , [Synth 8-3331] design test has unconnected port led[13]. ]", 2, false, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("test.vhd", 280, 246); // bF:I (JPanel:JComponent, cd:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design test has unconnected port led[14]. ]", 1); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Route Design, [Power 33-232] No user defined clocks were found in the design!. Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate. ]", 7, false); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Route Design, [Power 33-232] No user defined clocks were found in the design!. Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate. ]", 7, false, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("test.vhd", 208, 276); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test.vhd", 107, 264); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 13 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Route Design, [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.. ]", 6, false); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Route Design, [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.. ]", 6, false, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 31 seconds
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Fri Mar 09 23:32:36 2018] Launched synth_1... Run output will be captured here: F:/GitRepositories/CA_2018/test_env/test_env.runs/synth_1/runme.log [Fri Mar 09 23:32:36 2018] Launched impl_1... Run output will be captured here: F:/GitRepositories/CA_2018/test_env/test_env.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// Elapsed time: 26 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Implementation Completed: addNotify
+// Elapsed time: 98 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ah:y)
+dismissDialog("Implementation Completed"); // ah:y (cd:JFrame)
+// Elapsed time: 17 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// Elapsed time: 28 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 529 MB. GUI used memory: 41 MB. Current time: 3/9/18 11:41:49 PM EET

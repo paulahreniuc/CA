@@ -62,14 +62,28 @@ component display is
          an : out std_logic_vector(3 downto 0));
 end  component;
 
-signal cont: std_logic_vector(15 downto 0) :="0000000000000000";
+signal cont: std_logic_vector(15 downto 0) := "0000000000000000";
 signal en: std_logic;
 signal qcat : std_logic_vector(6 downto 0);
 signal qan : std_logic_vector(3 downto 0);
+--signals for ALU
+signal cont2: std_logic_vector(1 downto 0) := "00";
+signal number1: std_logic_vector(15 downto 0) := "0000000000000000";
+signal number2: std_logic_vector(15 downto 0) := "0000000000000000";
+signal number3: std_logic_vector(15 downto 0) := "0000000000000000";
+signal resultA: std_logic_vector(15 downto 0) := "0000000000000000";
+signal resultS: std_logic_vector(15 downto 0) := "0000000000000000";
+signal resultSHFr: std_logic_vector(15 downto 0) := "0000000000000000";
+signal resultSHFl: std_logic_vector(15 downto 0) := "0000000000000000";
+signal outmux: std_logic_vector(15 downto 0);
+signal outzdet: std_logic;
+
 begin
 
 u1: mpg port map (clk, btn(0), en);
-u2: display port map (clk, cont(3 downto 0), cont(7 downto 4), cont(11 downto 8), cont(15 downto 12), qcat, qan);
+--u2: display port map (clk, cont(3 downto 0), cont(7 downto 4), cont(11 downto 8), cont(15 downto 12), qcat, qan); -- for counetr lab 1
+u3: display port map (clk, outmux(3 downto 0), outmux(7 downto 4), outmux(11 downto 8), outmux(15 downto 12), qcat, qan);
+
 process(clk, btn(0), sw(0))
 begin
 
@@ -86,9 +100,85 @@ end if;
 
 end process;
 
-led <= cont;
+-- ALU
+--counter 2 bits
+process(clk, en, btn(1))
+begin 
+if(clk'event and clk = '1') then
+    if (en = '1') then
+        cont2 <= cont2 + 1;
+    end if;
+end if;
+end process;
+
+--zero extend number1
+process(sw)
+begin
+number1(3 downto 0) <= sw(3 downto 0);
+end process;
+
+--zero extend number2
+process(sw)
+begin
+number2(3 downto 0) <= sw(7 downto 4);
+end process;
+
+--zero extend number3
+process(sw)
+begin
+number3(7 downto 0) <= sw(7 downto 0);
+end process;
+
+--addition and substraction
+process(number1, number2, cont2)
+begin
+    if(cont2 = "00") then
+        resultA <= number1 + number2;
+    end if;
+    if (cont2 = "01") then
+        resultS <= number1 - number2;
+    end if;
+end process;
+
+--shift left/ shift right
+process(number3, cont2)
+begin
+    if (cont2 = "10") then -- shift right
+        resultSHFr(15 downto 0) <= "00" & number3(15 downto 2);
+    end if;
+    if (cont2 = "11") then --shift left
+        resultSHFl(15 downto 0) <= number3(13 downto 0) & "00";
+    end if;
+end process;
+
+--mux 
+process (cont2, resultA, resultS, resultSHFr, resultSHFl)
+begin
+   case cont2 is
+      when "00" => outmux <= resultA;
+      when "01" => outmux <= resultS;
+      when "10" => outmux <= resultSHFr;
+      when "11" => outmux <= resultSHFl;
+      when others => outmux <= "0000000000000000";
+   end case;
+end process;
+
+--zero detector
+process(outmux, outzdet)
+begin
+    outzdet <= outmux(0);
+    for i in 1 to 15 loop
+        outzdet <= outzdet nor outmux(i);
+    end loop;
+end process;
+
+led(15) <= outzdet;
+
+--led <= cont; -- output if we want to test onl the conter form lab 1
 cat <= qcat;
 an <= qan;
+
+--firt ex of lab 1
 --led <= sw;
 --an <= btn(3 downto 0);
 --cat <= (others=>'0');

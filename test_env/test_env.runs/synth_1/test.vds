@@ -2,12 +2,12 @@
 # Vivado v2016.4 (64-bit)
 # SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
 # IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
-# Start of session at: Thu Mar 08 17:34:25 2018
-# Process ID: 6548
-# Current directory: D:/30424/h/test_env/test_env.runs/synth_1
+# Start of session at: Fri Mar 09 23:32:37 2018
+# Process ID: 2728
+# Current directory: F:/GitRepositories/CA_2018/test_env/test_env.runs/synth_1
 # Command line: vivado.exe -log test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source test.tcl
-# Log file: D:/30424/h/test_env/test_env.runs/synth_1/test.vds
-# Journal file: D:/30424/h/test_env/test_env.runs/synth_1\vivado.jou
+# Log file: F:/GitRepositories/CA_2018/test_env/test_env.runs/synth_1/test.vds
+# Journal file: F:/GitRepositories/CA_2018/test_env/test_env.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source test.tcl -notrace
 Command: synth_design -top test -part xc7a35tcpg236-1
@@ -15,20 +15,36 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 10108 
+INFO: Helper process launched with PID 7996 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 276.266 ; gain = 66.668
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 283.305 ; gain = 72.680
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'test' [D:/30424/h/test_env/test_env.srcs/sources_1/new/test.vhd:46]
-INFO: [Synth 8-3491] module 'mpg' declared at 'D:/30424/h/test_env/test_env.srcs/sources_1/new/mpg.vhd:36' bound to instance 'u1' of component 'mpg' [D:/30424/h/test_env/test_env.srcs/sources_1/new/test.vhd:71]
-INFO: [Synth 8-638] synthesizing module 'mpg' [D:/30424/h/test_env/test_env.srcs/sources_1/new/mpg.vhd:43]
-INFO: [Synth 8-256] done synthesizing module 'mpg' (1#1) [D:/30424/h/test_env/test_env.srcs/sources_1/new/mpg.vhd:43]
-INFO: [Synth 8-3491] module 'display' declared at 'D:/30424/h/test_env/test_env.srcs/sources_1/new/display.vhd:36' bound to instance 'u2' of component 'display' [D:/30424/h/test_env/test_env.srcs/sources_1/new/test.vhd:72]
-INFO: [Synth 8-638] synthesizing module 'display' [D:/30424/h/test_env/test_env.srcs/sources_1/new/display.vhd:46]
-INFO: [Synth 8-226] default block is never used [D:/30424/h/test_env/test_env.srcs/sources_1/new/display.vhd:66]
-INFO: [Synth 8-226] default block is never used [D:/30424/h/test_env/test_env.srcs/sources_1/new/display.vhd:79]
-INFO: [Synth 8-256] done synthesizing module 'display' (2#1) [D:/30424/h/test_env/test_env.srcs/sources_1/new/display.vhd:46]
-INFO: [Synth 8-256] done synthesizing module 'test' (3#1) [D:/30424/h/test_env/test_env.srcs/sources_1/new/test.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'test' [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:46]
+INFO: [Synth 8-3491] module 'mpg' declared at 'F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/mpg.vhd:36' bound to instance 'u1' of component 'mpg' [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'mpg' [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/mpg.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'mpg' (1#1) [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/mpg.vhd:43]
+INFO: [Synth 8-3491] module 'display' declared at 'F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/display.vhd:36' bound to instance 'u3' of component 'display' [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'display' [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/display.vhd:46]
+INFO: [Synth 8-226] default block is never used [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/display.vhd:66]
+INFO: [Synth 8-226] default block is never used [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/display.vhd:79]
+INFO: [Synth 8-256] done synthesizing module 'display' (2#1) [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/display.vhd:46]
+INFO: [Synth 8-226] default block is never used [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:157]
+INFO: [Synth 8-256] done synthesizing module 'test' (3#1) [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:46]
+WARNING: [Synth 8-3331] design test has unconnected port led[14]
+WARNING: [Synth 8-3331] design test has unconnected port led[13]
+WARNING: [Synth 8-3331] design test has unconnected port led[12]
+WARNING: [Synth 8-3331] design test has unconnected port led[11]
+WARNING: [Synth 8-3331] design test has unconnected port led[10]
+WARNING: [Synth 8-3331] design test has unconnected port led[9]
+WARNING: [Synth 8-3331] design test has unconnected port led[8]
+WARNING: [Synth 8-3331] design test has unconnected port led[7]
+WARNING: [Synth 8-3331] design test has unconnected port led[6]
+WARNING: [Synth 8-3331] design test has unconnected port led[5]
+WARNING: [Synth 8-3331] design test has unconnected port led[4]
+WARNING: [Synth 8-3331] design test has unconnected port led[3]
+WARNING: [Synth 8-3331] design test has unconnected port led[2]
+WARNING: [Synth 8-3331] design test has unconnected port led[1]
+WARNING: [Synth 8-3331] design test has unconnected port led[0]
 WARNING: [Synth 8-3331] design test has unconnected port btn[4]
 WARNING: [Synth 8-3331] design test has unconnected port btn[3]
 WARNING: [Synth 8-3331] design test has unconnected port btn[2]
@@ -41,16 +57,9 @@ WARNING: [Synth 8-3331] design test has unconnected port sw[11]
 WARNING: [Synth 8-3331] design test has unconnected port sw[10]
 WARNING: [Synth 8-3331] design test has unconnected port sw[9]
 WARNING: [Synth 8-3331] design test has unconnected port sw[8]
-WARNING: [Synth 8-3331] design test has unconnected port sw[7]
-WARNING: [Synth 8-3331] design test has unconnected port sw[6]
-WARNING: [Synth 8-3331] design test has unconnected port sw[5]
-WARNING: [Synth 8-3331] design test has unconnected port sw[4]
-WARNING: [Synth 8-3331] design test has unconnected port sw[3]
-WARNING: [Synth 8-3331] design test has unconnected port sw[2]
-WARNING: [Synth 8-3331] design test has unconnected port sw[1]
 WARNING: [Synth 8-3331] design test has unconnected port enable
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 313.613 ; gain = 104.016
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 320.746 ; gain = 110.121
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -60,42 +69,45 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 313.613 ; gain = 104.016
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 320.746 ; gain = 110.121
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [D:/30424/h/test_env/test_env.srcs/constrs_1/new/constr.xdc]
-Finished Parsing XDC File [D:/30424/h/test_env/test_env.srcs/constrs_1/new/constr.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/30424/h/test_env/test_env.srcs/constrs_1/new/constr.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/test_propImpl.xdc].
+Parsing XDC File [F:/GitRepositories/CA_2018/test_env/test_env.srcs/constrs_1/new/constr.xdc]
+Finished Parsing XDC File [F:/GitRepositories/CA_2018/test_env/test_env.srcs/constrs_1/new/constr.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/GitRepositories/CA_2018/test_env/test_env.srcs/constrs_1/new/constr.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/test_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/test_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 604.242 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 598.031 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 604.242 ; gain = 394.645
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 598.031 ; gain = 387.406
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 604.242 ; gain = 394.645
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 598.031 ; gain = 387.406
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 604.242 ; gain = 394.645
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 598.031 ; gain = 387.406
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/30424/h/test_env/test_env.srcs/sources_1/new/test.vhd:72]
+WARNING: [Synth 8-327] inferring latch for variable 'resultSHFl_reg' [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:150]
+WARNING: [Synth 8-327] inferring latch for variable 'resultSHFr_reg' [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:147]
+WARNING: [Synth 8-327] inferring latch for variable 'resultS_reg' [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:139]
+WARNING: [Synth 8-327] inferring latch for variable 'resultA_reg' [F:/GitRepositories/CA_2018/test_env/test_env.srcs/sources_1/new/test.vhd:136]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 604.242 ; gain = 394.645
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 598.031 ; gain = 387.406
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -107,10 +119,16 @@ Report RTL Partitions:
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     16 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
 +---Registers : 
 	                7 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
 	                1 Bit    Registers := 3     
 +---Muxes : 
+	   4 Input     16 Bit        Muxes := 1     
 	   4 Input      4 Bit        Muxes := 2     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -119,6 +137,16 @@ Finished RTL Component Statistics
 Start RTL Hierarchical Component Statistics 
 ---------------------------------------------------------------------------------
 Hierarchical RTL Component report 
+Module test 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     16 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 1     
 Module mpg 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -144,6 +172,21 @@ Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design test has unconnected port led[14]
+WARNING: [Synth 8-3331] design test has unconnected port led[13]
+WARNING: [Synth 8-3331] design test has unconnected port led[12]
+WARNING: [Synth 8-3331] design test has unconnected port led[11]
+WARNING: [Synth 8-3331] design test has unconnected port led[10]
+WARNING: [Synth 8-3331] design test has unconnected port led[9]
+WARNING: [Synth 8-3331] design test has unconnected port led[8]
+WARNING: [Synth 8-3331] design test has unconnected port led[7]
+WARNING: [Synth 8-3331] design test has unconnected port led[6]
+WARNING: [Synth 8-3331] design test has unconnected port led[5]
+WARNING: [Synth 8-3331] design test has unconnected port led[4]
+WARNING: [Synth 8-3331] design test has unconnected port led[3]
+WARNING: [Synth 8-3331] design test has unconnected port led[2]
+WARNING: [Synth 8-3331] design test has unconnected port led[1]
+WARNING: [Synth 8-3331] design test has unconnected port led[0]
 WARNING: [Synth 8-3331] design test has unconnected port btn[4]
 WARNING: [Synth 8-3331] design test has unconnected port btn[3]
 WARNING: [Synth 8-3331] design test has unconnected port btn[2]
@@ -156,16 +199,52 @@ WARNING: [Synth 8-3331] design test has unconnected port sw[11]
 WARNING: [Synth 8-3331] design test has unconnected port sw[10]
 WARNING: [Synth 8-3331] design test has unconnected port sw[9]
 WARNING: [Synth 8-3331] design test has unconnected port sw[8]
-WARNING: [Synth 8-3331] design test has unconnected port sw[7]
-WARNING: [Synth 8-3331] design test has unconnected port sw[6]
-WARNING: [Synth 8-3331] design test has unconnected port sw[5]
-WARNING: [Synth 8-3331] design test has unconnected port sw[4]
-WARNING: [Synth 8-3331] design test has unconnected port sw[3]
-WARNING: [Synth 8-3331] design test has unconnected port sw[2]
-WARNING: [Synth 8-3331] design test has unconnected port sw[1]
 WARNING: [Synth 8-3331] design test has unconnected port enable
+INFO: [Synth 8-3886] merging instance 'resultSHFl_reg[12]' (LD) to 'resultSHFl_reg[0]'
+INFO: [Synth 8-3886] merging instance 'resultS_reg[12]' (LD) to 'resultS_reg[4]'
+INFO: [Synth 8-3886] merging instance 'resultSHFr_reg[12]' (LD) to 'resultSHFr_reg[6]'
+INFO: [Synth 8-3886] merging instance 'resultA_reg[12]' (LD) to 'resultA_reg[15]'
+INFO: [Synth 8-3886] merging instance 'resultS_reg[4]' (LD) to 'resultS_reg[8]'
+INFO: [Synth 8-3886] merging instance 'resultS_reg[8]' (LD) to 'resultS_reg[13]'
+INFO: [Synth 8-3886] merging instance 'resultSHFr_reg[8]' (LD) to 'resultSHFr_reg[6]'
+INFO: [Synth 8-3886] merging instance 'resultA_reg[8]' (LD) to 'resultA_reg[15]'
+INFO: [Synth 8-3886] merging instance 'resultSHFl_reg[0]' (LD) to 'resultSHFl_reg[1]'
+INFO: [Synth 8-3886] merging instance 'resultSHFl_reg[13]' (LD) to 'resultSHFl_reg[1]'
+INFO: [Synth 8-3886] merging instance 'resultS_reg[13]' (LD) to 'resultS_reg[5]'
+INFO: [Synth 8-3886] merging instance 'resultSHFr_reg[13]' (LD) to 'resultSHFr_reg[6]'
+INFO: [Synth 8-3886] merging instance 'resultA_reg[13]' (LD) to 'resultA_reg[15]'
+INFO: [Synth 8-3886] merging instance 'resultS_reg[5]' (LD) to 'resultS_reg[9]'
+INFO: [Synth 8-3886] merging instance 'resultA_reg[5]' (LD) to 'resultA_reg[15]'
+INFO: [Synth 8-3886] merging instance 'resultS_reg[9]' (LD) to 'resultS_reg[14]'
+INFO: [Synth 8-3886] merging instance 'resultSHFr_reg[9]' (LD) to 'resultSHFr_reg[6]'
+INFO: [Synth 8-3886] merging instance 'resultA_reg[9]' (LD) to 'resultA_reg[15]'
+INFO: [Synth 8-3886] merging instance 'resultSHFl_reg[1]' (LD) to 'resultSHFl_reg[10]'
+INFO: [Synth 8-3886] merging instance 'resultSHFl_reg[14]' (LD) to 'resultSHFl_reg[10]'
+INFO: [Synth 8-3886] merging instance 'resultS_reg[14]' (LD) to 'resultS_reg[6]'
+INFO: [Synth 8-3886] merging instance 'resultSHFr_reg[14]' (LD) to 'resultSHFr_reg[6]'
+INFO: [Synth 8-3886] merging instance 'resultA_reg[14]' (LD) to 'resultA_reg[15]'
+INFO: [Synth 8-3886] merging instance 'resultS_reg[6]' (LD) to 'resultS_reg[10]'
+INFO: [Synth 8-3886] merging instance 'resultSHFr_reg[6]' (LD) to 'resultSHFr_reg[7]'
+INFO: [Synth 8-3886] merging instance 'resultA_reg[6]' (LD) to 'resultA_reg[15]'
+INFO: [Synth 8-3886] merging instance 'resultSHFl_reg[10]' (LD) to 'resultSHFl_reg[11]'
+INFO: [Synth 8-3886] merging instance 'resultS_reg[10]' (LD) to 'resultS_reg[7]'
+INFO: [Synth 8-3886] merging instance 'resultSHFr_reg[10]' (LD) to 'resultSHFr_reg[7]'
+INFO: [Synth 8-3886] merging instance 'resultA_reg[10]' (LD) to 'resultA_reg[15]'
+INFO: [Synth 8-3886] merging instance 'resultS_reg[7]' (LD) to 'resultS_reg[11]'
+INFO: [Synth 8-3886] merging instance 'resultSHFr_reg[7]' (LD) to 'resultSHFr_reg[11]'
+INFO: [Synth 8-3886] merging instance 'resultA_reg[7]' (LD) to 'resultA_reg[15]'
+INFO: [Synth 8-3886] merging instance 'resultSHFl_reg[11]' (LD) to 'resultSHFl_reg[15]'
+INFO: [Synth 8-3886] merging instance 'resultS_reg[11]' (LD) to 'resultS_reg[15]'
+INFO: [Synth 8-3886] merging instance 'resultSHFr_reg[11]' (LD) to 'resultSHFr_reg[15]'
+INFO: [Synth 8-3886] merging instance 'resultA_reg[11]' (LD) to 'resultA_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\resultSHFl_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\resultSHFr_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\resultA_reg[15] )
+WARNING: [Synth 8-3332] Sequential element (resultSHFl_reg[15]) is unused and will be removed from module test.
+WARNING: [Synth 8-3332] Sequential element (resultSHFr_reg[15]) is unused and will be removed from module test.
+WARNING: [Synth 8-3332] Sequential element (resultA_reg[15]) is unused and will be removed from module test.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 604.242 ; gain = 394.645
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 598.031 ; gain = 387.406
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -180,10 +259,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 604.242 ; gain = 394.645
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 598.031 ; gain = 387.406
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 604.242 ; gain = 394.645
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 598.031 ; gain = 387.406
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -195,7 +274,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 604.242 ; gain = 394.645
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 598.031 ; gain = 387.406
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -219,7 +298,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 604.242 ; gain = 394.645
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 598.031 ; gain = 387.406
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -232,7 +311,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 604.242 ; gain = 394.645
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 598.031 ; gain = 387.406
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -244,25 +323,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 604.242 ; gain = 394.645
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 598.031 ; gain = 387.406
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 604.242 ; gain = 394.645
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 598.031 ; gain = 387.406
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 604.242 ; gain = 394.645
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 598.031 ; gain = 387.406
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 604.242 ; gain = 394.645
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 598.031 ; gain = 387.406
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -279,42 +358,47 @@ Report Cell Usage:
 |      |Cell   |Count |
 +------+-------+------+
 |1     |BUFG   |     1|
-|2     |CARRY4 |     8|
-|3     |LUT1   |    17|
-|4     |LUT2   |    20|
-|5     |LUT4   |    12|
-|6     |LUT6   |     4|
-|7     |FDRE   |    42|
-|8     |IBUF   |     3|
-|9     |OBUF   |    27|
+|2     |CARRY4 |     4|
+|3     |LUT1   |    16|
+|4     |LUT2   |     9|
+|5     |LUT3   |     6|
+|6     |LUT4   |    15|
+|7     |LUT5   |     2|
+|8     |LUT6   |    14|
+|9     |FDRE   |    28|
+|10    |LD     |    24|
+|11    |IBUF   |    10|
+|12    |OBUF   |    12|
+|13    |OBUFT  |    15|
 +------+-------+------+
 
 Report Instance Areas: 
 +------+---------+--------+------+
 |      |Instance |Module  |Cells |
 +------+---------+--------+------+
-|1     |top      |        |   134|
-|2     |  u1     |mpg     |    60|
-|3     |  u2     |display |     7|
+|1     |top      |        |   156|
+|2     |  u1     |mpg     |    64|
+|3     |  u3     |display |    13|
 +------+---------+--------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 604.242 ; gain = 394.645
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 598.031 ; gain = 387.406
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 20 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 604.242 ; gain = 104.016
-Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 604.242 ; gain = 394.645
+Synthesis finished with 0 errors, 0 critical warnings and 35 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 598.031 ; gain = 110.121
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 598.031 ; gain = 387.406
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 38 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 24 instances were transformed.
+  LD => LDCE: 24 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-26 Infos, 40 Warnings, 0 Critical Warnings and 0 Errors encountered.
+66 Infos, 63 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 604.242 ; gain = 394.645
-INFO: [Common 17-1381] The checkpoint 'D:/30424/h/test_env/test_env.runs/synth_1/test.dcp' has been generated.
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 604.242 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Thu Mar 08 17:34:50 2018...
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 598.031 ; gain = 387.406
+INFO: [Common 17-1381] The checkpoint 'F:/GitRepositories/CA_2018/test_env/test_env.runs/synth_1/test.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 598.031 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 09 23:33:10 2018...
